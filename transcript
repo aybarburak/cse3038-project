@@ -1,0 +1,458 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+vsim -gui work.processor
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 21:54:51 on May 15,2016
+# Loading work.processor
+# Loading work.mult2_to_1_5
+# Loading work.mult2_to_1_32
+# Loading work.mult8_to_1_32
+# Loading work.adder
+# Loading work.control
+# Loading work.alu32
+# Loading work.signext
+# Loading work.zeroext
+# Loading work.alucont
+# Loading work.shift
+# Loading work.shift_28
+# Loading work.j_b_control
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 34 of file "init.dat". (Current address [32], address range [0:31])    : C:/Modeltech_pe_edu_10.4a/examples/processor.v(189)
+#    Time: 0 ns  Iteration: 0  Instance: /processor
+# Instruction Memory[0]= 00  Data Memory[0]= 00   Register[0]= 00000000
+# Instruction Memory[1]= 43  Data Memory[1]= 00   Register[1]= ffffffff
+# Instruction Memory[2]= 28  Data Memory[2]= 00   Register[2]= 00000040
+# Instruction Memory[3]= 20  Data Memory[3]= 10   Register[3]= 0000000c
+# Instruction Memory[4]= 00  Data Memory[4]= 00   Register[4]= ffffffff
+# Instruction Memory[5]= c7  Data Memory[5]= 00   Register[5]= 00000030
+# Instruction Memory[6]= 40  Data Memory[6]= 00   Register[6]= 60000000
+# Instruction Memory[7]= 00  Data Memory[7]= 05   Register[7]= 20000000
+# Instruction Memory[8]= 59  Data Memory[8]= 00   Register[8]= 00000014
+# Instruction Memory[9]= 20  Data Memory[9]= 00   Register[9]= 00000008
+# Instruction Memory[10]= 00  Data Memory[10]= 00   Register[10]= 00000040
+# Instruction Memory[11]= 00  Data Memory[11]= 10   Register[11]= 00000000
+# Instruction Memory[12]= 7c  Data Memory[12]= 00   Register[12]= 00000000
+# Instruction Memory[13]= 01  Data Memory[13]= 00   Register[13]= 00000000
+# Instruction Memory[14]= 00  Data Memory[14]= 01   Register[14]= 00000000
+# Instruction Memory[15]= 01  Data Memory[15]= 00   Register[15]= 00000000
+# Instruction Memory[16]= 18  Data Memory[16]= 00   Register[16]= 00000000
+# Instruction Memory[17]= 80  Data Memory[17]= 00   Register[17]= 00000000
+# Instruction Memory[18]= 00  Data Memory[18]= 01   Register[18]= 00000000
+# Instruction Memory[19]= 01  Data Memory[19]= 10   Register[19]= 00000000
+# Instruction Memory[20]= 00  Data Memory[20]= 00   Register[20]= 00000000
+# Instruction Memory[21]= 60  Data Memory[21]= 00   Register[21]= 00000000
+# Instruction Memory[22]= 10  Data Memory[22]= 00   Register[22]= 00000000
+# Instruction Memory[23]= 18  Data Memory[23]= 25   Register[23]= 00000000
+# Instruction Memory[24]= 01  Data Memory[24]= 00   Register[24]= 00000000
+# Instruction Memory[25]= 6a  Data Memory[25]= 00   Register[25]= 00000000
+# Instruction Memory[26]= 08  Data Memory[26]= 01   Register[26]= 00000000
+# Instruction Memory[27]= 00  Data Memory[27]= 24   Register[27]= 00000000
+# Instruction Memory[28]= b4  Data Memory[28]= xx   Register[28]= 00000000
+# Instruction Memory[29]= 22  Data Memory[29]= xx   Register[29]= 00000000
+# Instruction Memory[30]= 00  Data Memory[30]= xx   Register[30]= 00000000
+#                    0mux 0,st 000Pla 110PC 00000004  SUM 80000000   INST 00c74000   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+run
+#                  200mux 2,st 110Pla 000PC 00000008  SUM 00000008   INST 59200000   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+run
+#                  400mux 1,st 000Pla 010PC 00000010  SUM ffffffff   INST 18800001   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+run
+#                  600mux 0,st 010Pla 000PC 00000018  SUM 00000040   INST 016a0800   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+#                  700mux 0,st 010Pla 000PC 00000018  SUM 00000040   INST 016a0800   REGISTER 00000000 00000000 00000040 00000040 
+run
+#                  800mux 0,st 000Pla 000PC 0000001c  SUM 00000080   INST b4220001   REGISTER 00000000 00000000 00000040 00000040 
+run
+run
+#                 1000mux 0,st 000Pla 000PC 00000020  SUM 0000004c   INST 00432820   REGISTER 00000000 00000000 00000040 00000040 
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/adder.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:30 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 22:00:30 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/alu32.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:30 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/alu32.v 
+# -- Compiling module alu32
+# 
+# Top level modules:
+# 	alu32
+# End time: 22:00:30 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/alucont.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:30 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/alucont.v 
+# -- Compiling module alucont
+# 
+# Top level modules:
+# 	alucont
+# End time: 22:00:30 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/control.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:30 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/control.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 22:00:30 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/j_b_control.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:30 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/j_b_control.v 
+# -- Compiling module j_b_control
+# 
+# Top level modules:
+# 	j_b_control
+# End time: 22:00:30 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_5.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:30 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_5.v 
+# -- Compiling module mult2_to_1_5
+# 
+# Top level modules:
+# 	mult2_to_1_5
+# End time: 22:00:30 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_32.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:30 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_32.v 
+# -- Compiling module mult2_to_1_32
+# 
+# Top level modules:
+# 	mult2_to_1_32
+# End time: 22:00:30 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/mult8_to_1_32.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:30 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/mult8_to_1_32.v 
+# -- Compiling module mult8_to_1_32
+# 
+# Top level modules:
+# 	mult8_to_1_32
+# End time: 22:00:31 on May 15,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/processor.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:31 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 22:00:31 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/shift.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:31 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/shift.v 
+# -- Compiling module shift
+# 
+# Top level modules:
+# 	shift
+# End time: 22:00:31 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/shift_28.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:31 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/shift_28.v 
+# -- Compiling module shift_28
+# 
+# Top level modules:
+# 	shift_28
+# End time: 22:00:31 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/signext.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:31 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/signext.v 
+# -- Compiling module signext
+# 
+# Top level modules:
+# 	signext
+# End time: 22:00:31 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/zeroext.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:00:31 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/zeroext.v 
+# -- Compiling module zeroext
+# 
+# Top level modules:
+# 	zeroext
+# End time: 22:00:31 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.processor
+# Loading work.mult2_to_1_5
+# Loading work.mult2_to_1_32
+# Loading work.mult8_to_1_32
+# Loading work.adder
+# Loading work.control
+# Loading work.alu32
+# Loading work.signext
+# Loading work.zeroext
+# Loading work.alucont
+# Loading work.shift
+# Loading work.shift_28
+# Loading work.j_b_control
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 34 of file "init.dat". (Current address [32], address range [0:31])    : C:/Modeltech_pe_edu_10.4a/examples/processor.v(189)
+#    Time: 0 ns  Iteration: 0  Instance: /processor
+# Instruction Memory[0]= 00  Data Memory[0]= 00   Register[0]= 00000000
+# Instruction Memory[1]= 43  Data Memory[1]= 00   Register[1]= ffffffff
+# Instruction Memory[2]= 28  Data Memory[2]= 00   Register[2]= 00000040
+# Instruction Memory[3]= 20  Data Memory[3]= 10   Register[3]= 0000000c
+# Instruction Memory[4]= 00  Data Memory[4]= 00   Register[4]= ffffffff
+# Instruction Memory[5]= c7  Data Memory[5]= 00   Register[5]= 00000030
+# Instruction Memory[6]= 40  Data Memory[6]= 00   Register[6]= 60000000
+# Instruction Memory[7]= 00  Data Memory[7]= 05   Register[7]= 20000000
+# Instruction Memory[8]= 59  Data Memory[8]= 00   Register[8]= 00000014
+# Instruction Memory[9]= 20  Data Memory[9]= 00   Register[9]= 00000008
+# Instruction Memory[10]= 00  Data Memory[10]= 00   Register[10]= 00000040
+# Instruction Memory[11]= 00  Data Memory[11]= 10   Register[11]= 00000000
+# Instruction Memory[12]= 7c  Data Memory[12]= 00   Register[12]= 00000000
+# Instruction Memory[13]= 01  Data Memory[13]= 00   Register[13]= 00000000
+# Instruction Memory[14]= 00  Data Memory[14]= 01   Register[14]= 00000000
+# Instruction Memory[15]= 01  Data Memory[15]= 00   Register[15]= 00000000
+# Instruction Memory[16]= 18  Data Memory[16]= 00   Register[16]= 00000000
+# Instruction Memory[17]= 80  Data Memory[17]= 00   Register[17]= 00000000
+# Instruction Memory[18]= 00  Data Memory[18]= 01   Register[18]= 00000000
+# Instruction Memory[19]= 01  Data Memory[19]= 10   Register[19]= 00000000
+# Instruction Memory[20]= 00  Data Memory[20]= 00   Register[20]= 00000000
+# Instruction Memory[21]= 60  Data Memory[21]= 00   Register[21]= 00000000
+# Instruction Memory[22]= 10  Data Memory[22]= 00   Register[22]= 00000000
+# Instruction Memory[23]= 18  Data Memory[23]= 25   Register[23]= 00000000
+# Instruction Memory[24]= 01  Data Memory[24]= 00   Register[24]= 00000000
+# Instruction Memory[25]= 6a  Data Memory[25]= 00   Register[25]= 00000000
+# Instruction Memory[26]= 08  Data Memory[26]= 01   Register[26]= 00000000
+# Instruction Memory[27]= 00  Data Memory[27]= 24   Register[27]= 00000000
+# Instruction Memory[28]= b4  Data Memory[28]= xx   Register[28]= 00000000
+# Instruction Memory[29]= 22  Data Memory[29]= xx   Register[29]= 00000000
+# Instruction Memory[30]= 00  Data Memory[30]= xx   Register[30]= 00000000
+#                    0mux 0,st 000Pla 110PC 00000004  SUM 80000000   INST 00c74000   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+run
+#                  200mux 2,st 110Pla 000PC 00000008  SUM 00000008   INST 59200000   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+run
+#                  400mux 1,st 000Pla 010PC 00000010  SUM ffffffff   INST 18800001   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+run
+#                  600mux 0,st 010Pla 000PC 00000018  SUM 00000040   INST 016a0800   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+#                  700mux 0,st 010Pla 000PC 00000018  SUM 00000040   INST 016a0800   REGISTER 00000000 00000000 00000040 00000040 
+run
+#                  800mux 0,st 000Pla 000PC 0000001c  SUM 00000080   INST b4220001   REGISTER 00000000 00000000 00000040 00000040 
+run
+run
+#                 1000mux 0,st 000Pla 000PC 00000020  SUM 0000004c   INST 00432820   REGISTER 00000000 00000000 00000040 00000040 
+restart -f
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 34 of file "init.dat". (Current address [32], address range [0:31])    : C:/Modeltech_pe_edu_10.4a/examples/processor.v(189)
+#    Time: 0 ns  Iteration: 0  Instance: /processor
+# Instruction Memory[0]= 00  Data Memory[0]= 00   Register[0]= 00000000
+# Instruction Memory[1]= 43  Data Memory[1]= 00   Register[1]= ffffffff
+# Instruction Memory[2]= 28  Data Memory[2]= 00   Register[2]= 00000050
+# Instruction Memory[3]= 20  Data Memory[3]= 10   Register[3]= 0000000c
+# Instruction Memory[4]= 00  Data Memory[4]= 00   Register[4]= ffffffff
+# Instruction Memory[5]= c7  Data Memory[5]= 00   Register[5]= 00000030
+# Instruction Memory[6]= 40  Data Memory[6]= 00   Register[6]= 60000000
+# Instruction Memory[7]= 00  Data Memory[7]= 05   Register[7]= 20000000
+# Instruction Memory[8]= 59  Data Memory[8]= 00   Register[8]= 00000014
+# Instruction Memory[9]= 20  Data Memory[9]= 00   Register[9]= 00000008
+# Instruction Memory[10]= 00  Data Memory[10]= 00   Register[10]= 00000040
+# Instruction Memory[11]= 00  Data Memory[11]= 10   Register[11]= 00000000
+# Instruction Memory[12]= 7c  Data Memory[12]= 00   Register[12]= 00000000
+# Instruction Memory[13]= 01  Data Memory[13]= 00   Register[13]= 00000000
+# Instruction Memory[14]= 00  Data Memory[14]= 01   Register[14]= 00000000
+# Instruction Memory[15]= 01  Data Memory[15]= 00   Register[15]= 00000000
+# Instruction Memory[16]= 18  Data Memory[16]= 00   Register[16]= 00000000
+# Instruction Memory[17]= 80  Data Memory[17]= 00   Register[17]= 00000000
+# Instruction Memory[18]= 00  Data Memory[18]= 01   Register[18]= 00000000
+# Instruction Memory[19]= 01  Data Memory[19]= 10   Register[19]= 00000000
+# Instruction Memory[20]= 00  Data Memory[20]= 00   Register[20]= 00000000
+# Instruction Memory[21]= 60  Data Memory[21]= 00   Register[21]= 00000000
+# Instruction Memory[22]= 10  Data Memory[22]= 00   Register[22]= 00000000
+# Instruction Memory[23]= 18  Data Memory[23]= 25   Register[23]= 00000000
+# Instruction Memory[24]= 01  Data Memory[24]= 00   Register[24]= 00000000
+# Instruction Memory[25]= 6a  Data Memory[25]= 00   Register[25]= 00000000
+# Instruction Memory[26]= 08  Data Memory[26]= 01   Register[26]= 00000000
+# Instruction Memory[27]= 00  Data Memory[27]= 24   Register[27]= 00000000
+# Instruction Memory[28]= b4  Data Memory[28]= xx   Register[28]= 00000000
+# Instruction Memory[29]= 22  Data Memory[29]= xx   Register[29]= 00000000
+# Instruction Memory[30]= 00  Data Memory[30]= xx   Register[30]= 00000000
+#                    0mux 0,st 000Pla 110PC 00000004  SUM 80000000   INST 00c74000   REGISTER 00000000 00000000 00000050 ffffffff 
+run
+run
+#                  200mux 2,st 110Pla 000PC 00000008  SUM 00000008   INST 59200000   REGISTER 00000000 00000000 00000050 ffffffff 
+run
+run
+#                  400mux 1,st 000Pla 010PC 00000010  SUM ffffffff   INST 18800001   REGISTER 00000000 00000000 00000050 ffffffff 
+run
+run
+#                  600mux 0,st 010Pla 000PC 00000018  SUM 00000040   INST 016a0800   REGISTER 00000000 00000000 00000050 ffffffff 
+run
+#                  700mux 0,st 010Pla 000PC 00000018  SUM 00000040   INST 016a0800   REGISTER 00000000 00000000 00000050 00000040 
+run
+#                  800mux 1,st 000Pla 000PC 0000001c  SUM 00000090   INST b4220001   REGISTER 00000000 00000000 00000050 00000040 
+run
+#                  900mux 1,st 000Pla 000PC 0000001c  SUM 00000090   INST b4220001   REGISTER 00000020 00000000 00000050 00000040 
+run
+#                 1000mux 0,st 000Pla 110PC 00000024  SUM 80000000   INST 00c74000   REGISTER 00000020 00000000 00000050 00000040 
+restart -f
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 34 of file "init.dat". (Current address [32], address range [0:31])    : C:/Modeltech_pe_edu_10.4a/examples/processor.v(189)
+#    Time: 0 ns  Iteration: 0  Instance: /processor
+# Instruction Memory[0]= 00  Data Memory[0]= 00   Register[0]= 00000000
+# Instruction Memory[1]= 43  Data Memory[1]= 00   Register[1]= ffffffff
+# Instruction Memory[2]= 28  Data Memory[2]= 00   Register[2]= 00000040
+# Instruction Memory[3]= 20  Data Memory[3]= 10   Register[3]= 0000000c
+# Instruction Memory[4]= 00  Data Memory[4]= 00   Register[4]= ffffffff
+# Instruction Memory[5]= c7  Data Memory[5]= 00   Register[5]= 00000030
+# Instruction Memory[6]= 40  Data Memory[6]= 00   Register[6]= 60000000
+# Instruction Memory[7]= 00  Data Memory[7]= 05   Register[7]= 20000000
+# Instruction Memory[8]= 59  Data Memory[8]= 00   Register[8]= 00000014
+# Instruction Memory[9]= 20  Data Memory[9]= 00   Register[9]= 00000008
+# Instruction Memory[10]= 00  Data Memory[10]= 00   Register[10]= 00000040
+# Instruction Memory[11]= 00  Data Memory[11]= 10   Register[11]= 00000000
+# Instruction Memory[12]= 7c  Data Memory[12]= 00   Register[12]= 00000000
+# Instruction Memory[13]= 01  Data Memory[13]= 00   Register[13]= 00000000
+# Instruction Memory[14]= 00  Data Memory[14]= 01   Register[14]= 00000000
+# Instruction Memory[15]= 01  Data Memory[15]= 00   Register[15]= 00000000
+# Instruction Memory[16]= 18  Data Memory[16]= 00   Register[16]= 00000000
+# Instruction Memory[17]= 80  Data Memory[17]= 00   Register[17]= 00000000
+# Instruction Memory[18]= 00  Data Memory[18]= 01   Register[18]= 00000000
+# Instruction Memory[19]= 01  Data Memory[19]= 10   Register[19]= 00000000
+# Instruction Memory[20]= 00  Data Memory[20]= 00   Register[20]= 00000000
+# Instruction Memory[21]= 60  Data Memory[21]= 00   Register[21]= 00000000
+# Instruction Memory[22]= 10  Data Memory[22]= 00   Register[22]= 00000000
+# Instruction Memory[23]= 18  Data Memory[23]= 25   Register[23]= 00000000
+# Instruction Memory[24]= 01  Data Memory[24]= 00   Register[24]= 00000000
+# Instruction Memory[25]= 6a  Data Memory[25]= 00   Register[25]= 00000000
+# Instruction Memory[26]= 08  Data Memory[26]= 01   Register[26]= 00000000
+# Instruction Memory[27]= 00  Data Memory[27]= 24   Register[27]= 00000000
+# Instruction Memory[28]= b4  Data Memory[28]= xx   Register[28]= 00000000
+# Instruction Memory[29]= 22  Data Memory[29]= xx   Register[29]= 00000000
+# Instruction Memory[30]= 00  Data Memory[30]= xx   Register[30]= 00000000
+#                    0mux 0,st 000Pla 110PC 00000004  SUM 80000000   INST 00c74000   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+run
+#                  200mux 2,st 110Pla 000PC 00000008  SUM 00000008   INST 59200000   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+run
+#                  400mux 1,st 000Pla 010PC 00000010  SUM ffffffff   INST 18800001   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+run
+#                  600mux 0,st 010Pla 000PC 00000018  SUM 00000040   INST 016a0800   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+#                  700mux 0,st 010Pla 000PC 00000018  SUM 00000040   INST 016a0800   REGISTER 00000000 00000000 00000040 00000040 
+vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/processor.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:02:31 on May 15,2016
+# vlog -reportprogress 300 -work work C:/Modeltech_pe_edu_10.4a/examples/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 22:02:31 on May 15,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.processor
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 34 of file "init1.dat". (Current address [32], address range [0:31])    : C:/Modeltech_pe_edu_10.4a/examples/processor.v(189)
+#    Time: 0 ns  Iteration: 0  Instance: /processor
+# Instruction Memory[0]= 00  Data Memory[0]= 00   Register[0]= 00000000
+# Instruction Memory[1]= 43  Data Memory[1]= 00   Register[1]= ffffffff
+# Instruction Memory[2]= 28  Data Memory[2]= 00   Register[2]= 00000040
+# Instruction Memory[3]= 20  Data Memory[3]= 10   Register[3]= 0000000c
+# Instruction Memory[4]= 34  Data Memory[4]= 00   Register[4]= ffffffff
+# Instruction Memory[5]= 22  Data Memory[5]= 00   Register[5]= 00000030
+# Instruction Memory[6]= ff  Data Memory[6]= 00   Register[6]= 60000000
+# Instruction Memory[7]= ff  Data Memory[7]= 05   Register[7]= 20000000
+# Instruction Memory[8]= 80  Data Memory[8]= 00   Register[8]= 00000014
+# Instruction Memory[9]= 00  Data Memory[9]= 00   Register[9]= 00000008
+# Instruction Memory[10]= 00  Data Memory[10]= 00   Register[10]= 00000040
+# Instruction Memory[11]= 04  Data Memory[11]= 10   Register[11]= 00000000
+# Instruction Memory[12]= 7c  Data Memory[12]= 00   Register[12]= 00000000
+# Instruction Memory[13]= 01  Data Memory[13]= 00   Register[13]= 00000000
+# Instruction Memory[14]= 00  Data Memory[14]= 01   Register[14]= 00000000
+# Instruction Memory[15]= 01  Data Memory[15]= 00   Register[15]= 00000000
+# Instruction Memory[16]= 34  Data Memory[16]= 00   Register[16]= 00000000
+# Instruction Memory[17]= 22  Data Memory[17]= 00   Register[17]= 00000000
+# Instruction Memory[18]= ff  Data Memory[18]= 01   Register[18]= 00000000
+# Instruction Memory[19]= ff  Data Memory[19]= 10   Register[19]= 00000000
+# Instruction Memory[20]= 00  Data Memory[20]= 00   Register[20]= 00000000
+# Instruction Memory[21]= 60  Data Memory[21]= 00   Register[21]= 00000000
+# Instruction Memory[22]= 10  Data Memory[22]= 00   Register[22]= 00000000
+# Instruction Memory[23]= 18  Data Memory[23]= 25   Register[23]= 00000000
+# Instruction Memory[24]= b4  Data Memory[24]= 00   Register[24]= 00000000
+# Instruction Memory[25]= 22  Data Memory[25]= 00   Register[25]= 00000000
+# Instruction Memory[26]= 00  Data Memory[26]= 01   Register[26]= 00000000
+# Instruction Memory[27]= 00  Data Memory[27]= 24   Register[27]= 00000000
+# Instruction Memory[28]= 00  Data Memory[28]= xx   Register[28]= 00000000
+# Instruction Memory[29]= 00  Data Memory[29]= xx   Register[29]= 00000000
+# Instruction Memory[30]= 00  Data Memory[30]= xx   Register[30]= 00000000
+#                    0mux 0,st 000Pla 010PC 00000004  SUM ffffffff   INST 3422ffff   REGISTER 00000000 00000000 00000040 ffffffff 
+run
+#                  100mux 0,st 000Pla 010PC 00000004  SUM ffffffff   INST 3422ffff   REGISTER 00000000 00000000 ffffffff ffffffff 
+run
+#                  200mux 3,st 010Pla 001PC 00000008  SUM 00000000   INST 80000004   REGISTER 00000000 00000000 ffffffff ffffffff 
+run
+#                  300mux 3,st 010Pla 001PC 00000008  SUM 00000000   INST 80000004   REGISTER 0000000c 00000000 ffffffff ffffffff 
+run
+#                  400mux 0,st 001Pla 010PC 00000010  SUM ffffffff   INST 3422ffff   REGISTER 0000000c 00000000 ffffffff ffffffff 
+run
+run
+#                  600mux 4,st 010Pla 000PC 00000014  SUM 0000000c   INST 00601018   REGISTER 0000000c 00000000 ffffffff ffffffff 
+run
+#                  700mux 4,st 010Pla 000PC 00000014  SUM 0000000c   INST 00601018   REGISTER 0000000c 00000000 00000018 ffffffff 
+run
+#                  800mux 1,st 000Pla 010PC 0000000c  SUM ffffffff   INST 7c010001   REGISTER 0000000c 00000000 00000018 ffffffff 
+run
+#                  900mux 1,st 000Pla 000PC 0000000c  SUM 00000010   INST 7c010001   REGISTER 0000000c 00000000 00000018 00000010 
+run
+#                 1000mux 0,st 000Pla 000PC 00000014  SUM 0000000c   INST 00601018   REGISTER 0000000c 00000000 00000018 00000010 
+run
+#                 1100mux 0,st 000Pla 000PC 00000014  SUM 0000000c   INST 00601018   REGISTER 0000000c 00000000 0000000c 00000010 
+run
+#                 1200mux 1,st 000Pla 000PC 00000018  SUM 0000001c   INST b4220000   REGISTER 0000000c 00000000 0000000c 00000010 
+run
+#                 1300mux 1,st 000Pla 000PC 00000018  SUM 0000001c   INST b4220000   REGISTER 0000001c 00000000 0000000c 00000010 
+run
+#                 1400mux 0,st 000Pla 001PC 0000001c  SUM 00000000   INST 00000000   REGISTER 0000001c 00000000 0000000c 00000010 
+run
+run
+#                 1600mux 0,st 001Pla 000PC 00000020  SUM 00000018   INST 00432820   REGISTER 0000001c 00000000 0000000c 00000010 

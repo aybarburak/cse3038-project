@@ -1,0 +1,459 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.4a/examples
+vAD_MUX
+Z1 !s110 1451378205
+!i10b 1
+!s100 <3W540LOVbnCj5E[[joL[1
+I>e0K301M7Jm:aJR1?X>YU1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1451345502
+8//Mac/Home/Desktop/150112001_part3/AD_MUX.v
+F//Mac/Home/Desktop/150112001_part3/AD_MUX.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1451378205.000000
+!s107 //Mac/Home/Desktop/150112001_part3/AD_MUX.v|
+!s90 -reportprogress|300|-work|work|//Mac/Home/Desktop/150112001_part3/AD_MUX.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@a@d_@m@u@x
+vadder
+Z6 !s110 1463338830
+!i10b 1
+!s100 Y;`Fz?LjC0QzPeNWf8_U<1
+I4>:^]E;P^;Lza@RcPj95o2
+R2
+R0
+w955028208
+8C:/Modeltech_pe_edu_10.4a/examples/adder.v
+FC:/Modeltech_pe_edu_10.4a/examples/adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z7 !s108 1463338830.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/adder.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/adder.v|
+!s101 -O0
+!i113 1
+R5
+vAdress_Select_MUX
+R1
+!i10b 1
+!s100 ohhma[:1lKG3QdVe;GZ6:2
+I<<PLRGGkQQT9Qd;7Q78K=0
+R2
+R0
+w1451345026
+8//Mac/Home/Desktop/150112001_part3/Address_Select_MUX.v
+F//Mac/Home/Desktop/150112001_part3/Address_Select_MUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 //Mac/Home/Desktop/150112001_part3/Address_Select_MUX.v|
+!s90 -reportprogress|300|-work|work|//Mac/Home/Desktop/150112001_part3/Address_Select_MUX.v|
+!s101 -O0
+!i113 1
+R5
+n@adress_@select_@m@u@x
+vAlu
+R1
+!i10b 1
+!s100 h0>8J5Jh>1fn>QaK?H2^;0
+IoK[AMM]_Ni:hj`fo01W=23
+R2
+R0
+w1451345724
+8//Mac/Home/Desktop/150112001_part3/Alu.v
+F//Mac/Home/Desktop/150112001_part3/Alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 //Mac/Home/Desktop/150112001_part3/Alu.v|
+!s90 -reportprogress|300|-work|work|//Mac/Home/Desktop/150112001_part3/Alu.v|
+!s101 -O0
+!i113 1
+R5
+n@alu
+valu32
+R6
+!i10b 1
+!s100 fDc`DG;m2dli82cAWD6Ik0
+If;iAKSgU9l`DWQ?n4l3n42
+R2
+R0
+w1462908755
+8C:/Modeltech_pe_edu_10.4a/examples/alu32.v
+FC:/Modeltech_pe_edu_10.4a/examples/alu32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Modeltech_pe_edu_10.4a/examples/alu32.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/alu32.v|
+!s101 -O0
+!i113 1
+R5
+valucont
+R6
+!i10b 1
+!s100 H:jIAce`_Raf]MQW0ll?Q1
+I]BgU0`ELfEgWh2Fhg:fSH0
+R2
+R0
+w1462340227
+8C:/Modeltech_pe_edu_10.4a/examples/alucont.v
+FC:/Modeltech_pe_edu_10.4a/examples/alucont.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Modeltech_pe_edu_10.4a/examples/alucont.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/alucont.v|
+!s101 -O0
+!i113 1
+R5
+vcontrol
+R6
+!i10b 1
+!s100 _[bYJaIGX2=l==V00XVjS2
+IG_;^WDK25]b:I6;ccRj0J3
+R2
+R0
+w1462961476
+8C:/Modeltech_pe_edu_10.4a/examples/control.v
+FC:/Modeltech_pe_edu_10.4a/examples/control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Modeltech_pe_edu_10.4a/examples/control.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/control.v|
+!s101 -O0
+!i113 1
+R5
+vControlUnit
+R1
+!i10b 1
+!s100 JbB584282o^foC3]X@DVk1
+I2U5N3zV5RdjcG0]eTWo^h3
+R2
+R0
+w1451344826
+8//Mac/Home/Desktop/150112001_part3/ControlUnit.v
+F//Mac/Home/Desktop/150112001_part3/ControlUnit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 //Mac/Home/Desktop/150112001_part3/ControlUnit.v|
+!s90 -reportprogress|300|-work|work|//Mac/Home/Desktop/150112001_part3/ControlUnit.v|
+!s101 -O0
+!i113 1
+R5
+n@control@unit
+vCPU
+R1
+!i10b 1
+!s100 8X0bIXN9nj;dRm?b:onX30
+Ij`46<:];Q_La_d2;aT1XQ1
+R2
+R0
+w1451346638
+8//Mac/Home/Desktop/150112001_part3/CPU.v
+F//Mac/Home/Desktop/150112001_part3/CPU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 //Mac/Home/Desktop/150112001_part3/CPU.v|
+!s90 -reportprogress|300|-work|work|//Mac/Home/Desktop/150112001_part3/CPU.v|
+!s101 -O0
+!i113 1
+R5
+n@c@p@u
+vj_b_control
+R6
+!i10b 1
+!s100 9^<3Mk4JJi_^WGZEP:iOo2
+I924[H536EhHIdzQUFZ87;3
+R2
+R0
+w1462908377
+8C:/Modeltech_pe_edu_10.4a/examples/j_b_control.v
+FC:/Modeltech_pe_edu_10.4a/examples/j_b_control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Modeltech_pe_edu_10.4a/examples/j_b_control.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/j_b_control.v|
+!s101 -O0
+!i113 1
+R5
+vLs_MUX
+R1
+!i10b 1
+!s100 ak=YXR1:DWdXPLj_G`omW0
+I:XY`Gd7G47X[XozE@nk;W2
+R2
+R0
+w1451345440
+8//Mac/Home/Desktop/150112001_part3/Ls_MUX.v
+F//Mac/Home/Desktop/150112001_part3/Ls_MUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 //Mac/Home/Desktop/150112001_part3/Ls_MUX.v|
+!s90 -reportprogress|300|-work|work|//Mac/Home/Desktop/150112001_part3/Ls_MUX.v|
+!s101 -O0
+!i113 1
+R5
+n@ls_@m@u@x
+vmult2_to_1_32
+R6
+!i10b 1
+!s100 ^aXF>kbOQm5iDYT=bV7M11
+I[8KOYb]b`h>f;LDnMK0;`2
+R2
+R0
+w1021135086
+8C:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_32.v
+FC:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_32.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_32.v|
+!s101 -O0
+!i113 1
+R5
+vmult2_to_1_5
+R6
+!i10b 1
+!s100 k]2`0V2=b67f6kc:ca8eK0
+Ig^5NNObzeDKeUhlzjYbSk0
+R2
+R0
+w955028066
+8C:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_5.v
+FC:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_5.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_5.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/mult2_to_1_5.v|
+!s101 -O0
+!i113 1
+R5
+vmult8_to_1_32
+R6
+!i10b 1
+!s100 fCf=HK;XcUefk5amJbRVe2
+IOjazJ8z]MLCY5khF80oe`0
+R2
+R0
+w1462250148
+8C:/Modeltech_pe_edu_10.4a/examples/mult8_to_1_32.v
+FC:/Modeltech_pe_edu_10.4a/examples/mult8_to_1_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Modeltech_pe_edu_10.4a/examples/mult8_to_1_32.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/mult8_to_1_32.v|
+!s101 -O0
+!i113 1
+R5
+vPC_MUX
+R1
+!i10b 1
+!s100 N[zB]aB=C^kYnXf[Fzl2@1
+IP@MFVkhlW8ODmFk1>iN`I1
+R2
+R0
+w1451345422
+8//Mac/Home/Desktop/150112001_part3/PC_MUX.v
+F//Mac/Home/Desktop/150112001_part3/PC_MUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 //Mac/Home/Desktop/150112001_part3/PC_MUX.v|
+!s90 -reportprogress|300|-work|work|//Mac/Home/Desktop/150112001_part3/PC_MUX.v|
+!s101 -O0
+!i113 1
+R5
+n@p@c_@m@u@x
+vprocessor
+!s110 1463338951
+!i10b 1
+!s100 XUQo]nF_X]MLXO7_g3U>^1
+IR>kK7D^gfFMKzULK7oRBR1
+R2
+R0
+w1463338910
+8C:/Modeltech_pe_edu_10.4a/examples/processor.v
+FC:/Modeltech_pe_edu_10.4a/examples/processor.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1463338951.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/processor.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/processor.v|
+!s101 -O0
+!i113 1
+R5
+vRegisterFile
+R1
+!i10b 1
+!s100 cUe58_FU9>OjeVKb^7@TW1
+ILKN]WA7knI0_TDkhR@R4n1
+R2
+R0
+w1451345606
+8//Mac/Home/Desktop/150112001_part3/RegisterFile.v
+F//Mac/Home/Desktop/150112001_part3/RegisterFile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 //Mac/Home/Desktop/150112001_part3/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|//Mac/Home/Desktop/150112001_part3/RegisterFile.v|
+!s101 -O0
+!i113 1
+R5
+n@register@file
+vshift
+Z8 !s110 1463338831
+!i10b 1
+!s100 GWP55OEfIRVA_6M>iSY8d2
+IJma;T;adnNnU5?Dm3foDS2
+R2
+R0
+w955028064
+8C:/Modeltech_pe_edu_10.4a/examples/shift.v
+FC:/Modeltech_pe_edu_10.4a/examples/shift.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1463338831.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/shift.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/shift.v|
+!s101 -O0
+!i113 1
+R5
+vshift_28
+R8
+!i10b 1
+!s100 kRFH3FE=i7MZEDJ>TlT`n0
+I2iR^@>`H3DgGf_caA`h0R0
+R2
+R0
+w1462876775
+8C:/Modeltech_pe_edu_10.4a/examples/shift_28.v
+FC:/Modeltech_pe_edu_10.4a/examples/shift_28.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Modeltech_pe_edu_10.4a/examples/shift_28.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/shift_28.v|
+!s101 -O0
+!i113 1
+R5
+vsignext
+R8
+!i10b 1
+!s100 JAEfRFLIAaX=@V<j@h[jS1
+I:n=ggnmLPbg6Bo;12HzHQ1
+R2
+R0
+w1335991790
+8C:/Modeltech_pe_edu_10.4a/examples/signext.v
+FC:/Modeltech_pe_edu_10.4a/examples/signext.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Modeltech_pe_edu_10.4a/examples/signext.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/signext.v|
+!s101 -O0
+!i113 1
+R5
+vzeroext
+R8
+!i10b 1
+!s100 Nckl^LF7Sa7Fb]I[Vd9TE3
+IRSJC97?nYPZP<o>BT<BNf3
+R2
+R0
+w1462338729
+8C:/Modeltech_pe_edu_10.4a/examples/zeroext.v
+FC:/Modeltech_pe_edu_10.4a/examples/zeroext.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Modeltech_pe_edu_10.4a/examples/zeroext.v|
+!s90 -reportprogress|300|-work|work|C:/Modeltech_pe_edu_10.4a/examples/zeroext.v|
+!s101 -O0
+!i113 1
+R5
